@@ -2,6 +2,9 @@
 
 This is the repository for the website for the Polish Language and Literature department at the University of Toronto.
 
+A link to the website can be found here:
+https://sites.utoronto.ca/slavic/polish/index.html
+
 The content inventory for this website can be found here:
 https://docs.google.com/spreadsheets/d/1XtFObAmkRxIPXjYk7CtEfpXRvM17Vfn0JAV_0XtO2tk/edit?usp=sharing
 
