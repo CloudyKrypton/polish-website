@@ -7,7 +7,7 @@ html
 
 body
 { font: normal .80em "Calibri", sans-serif;
-  background: #F0EFE2;
+  background: #FFF;
   color: #777;}
 
 p
@@ -24,8 +24,11 @@ h1, h2, h3, h4, h5, h6
   padding: 15px 0 5px 0;}
 
 h2
-{ font: normal 175% "Calibri", sans-serif;
-  color: #1293EE;}
+{ font: normal 205% "Calibri", sans-serif;
+  color: #000000;
+text-align: left;
+font-weight: bold;
+padding-left: 65px;}
 
 h4, h5, h6
 { margin: 0;
@@ -48,7 +51,7 @@ font-size:14px;}
 a, a:hover
 { outline: none;
   text-decoration: underline;
-  color: #CC0000;}
+  color: #263965ff;}
 
 a:hover
 { text-decoration: none;}
@@ -94,14 +97,15 @@ ol li
   margin-right: auto;}
 
 #header
-{ background: #A80000;
+{ background: #263965ff
+  ;
   height: 240px;}
 
 #logo
 { width: 950px;
   position: relative;
   height: 168px;
-  background: #A80000 url("logo.png") no-repeat;
+  background: #263965ff url("banner.png") no-repeat;
   background-position:left;}
 
 #logo #logo_text 
@@ -135,7 +139,7 @@ ol li
 { width: 990px;
   height: 302px;
   padding: 0;
-  background: #5A2C24 url("menu.png") repeat-x;} 
+  background: #263965ff;} 
 
 ul#menu, ul#menu li
 { float: left;
@@ -160,14 +164,14 @@ ul#menu li a
 
 ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #FFF;
-  background: #451C1B url("menu_select.png") repeat-x;}
+  background: #263965ff url("menu_select.png") repeat-x;}
 
 #site_content
-{ width: 950px;
+{ width: 1050px;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 20px 24px 20px 37px;
-  background: #FFF url("content.png");} 
+  background: #ffffff;} 
 
 .sidebar
 { float: right;
@@ -288,6 +292,56 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 .is-hidden {display: none;}
 
+
+.homepage-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.carousel {
+  margin-top: 50px;
+}
+
+.footer-tabs {
+  list-style-type: None;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  gap: 24px;
+  font-size: 15px;
+  font-family: "Calibri", sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer-links {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.future-students {
+  display: flex;
+  gap: 8px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+}
+
+.future-students-button {
+  background-color: #1c295c;
+  border: none;
+  color: white;
+  font-family: "Calibri", sans-serif;
+  font-size: 18px;
+  width: 300px;
+  height: 60px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+}
 /*  */
 
 #content
@@ -311,12 +365,12 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   line-height: 1.5em;} */
 
 #footer
-{ width: 990px;
-  font: normal 75% 'sans lucida console', arial, sans-serif;
+{ font: normal 'Calibri', sans-serif;
   height: 140px;
-  padding: 10px 0 0px 0;
+  padding: 20px 20px 0px 0;
+  padding-bottom: 100px;
   text-align: center; 
-  background: #29425E url("footer.png") repeat-x;
+  background: #303b63;
   color: #FFF;
   letter-spacing: 0.1em;}
 
@@ -367,7 +421,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   height: 33px;
   padding: 2px 0 3px 0;
   cursor: pointer; 
-  background: #7D0F0F; 
+  background: #263965ff; 
   color: #FFF;}
 
 .form_settings textarea, .form_settings select
