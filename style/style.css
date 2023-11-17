@@ -3,12 +3,183 @@ html
 
 *
 { margin: 0;
-  padding: 0;}
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
 
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background: #F0EFE2;
-  color: #777;}
+  background: white;
+  color: black;}
+
+header {
+  background-color: #1E3765;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+header img{
+  background-color: #1E3765;
+  position: relative;
+  top: 5px;
+}
+
+header ul{
+  white-space: nowrap;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  height: 50px;
+}
+
+header li{
+  display: inline-block;
+  font-size: 10px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+header li a.slavic {
+  height: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  top: -10px;
+}
+
+/* header h1{
+  color: white;
+  padding: 0;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+} */
+
+.banner{
+  /* position: relative; */
+  max-width: 100%;
+}
+.banner img{
+  max-width: 100%;
+}
+
+.banner .welcome{
+  background-color: rgba(30, 55, 101, 1);
+  color: white;
+  padding: 0px 20px 0px 10px;
+  position: absolute;
+  left: 10px;
+  top: 650px;
+  /* opacity: 0.5; */
+}
+
+.banner h2{
+  font-size: 36px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  opacity: 1;
+}
+
+.nav{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 0px 20px 0px;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+.nav ul{
+  white-space: nowrap;
+  max-width: 1000px;
+  margin: 0;
+}
+.nav li{
+  width: 15%;
+  display: inline-block;
+  font-size: 24px;
+}
+.nav li a{
+  text-decoration: none;
+  color: white;
+}
+/* nav li a.home{
+  color: #F63232;
+} */
+
+.main{
+  padding: 50px 0 0 0;
+  margin: 0px 10% 5% 10%;
+  /* background-color: beige; */
+}
+
+.main h1{
+  text-align: center;
+  font-size: 48px;
+}
+
+.we-are{
+  margin: 0 10% 0 10%;
+  background-color: rgba(30, 55, 101, 1);
+}
+
+.we-are h3{
+  color: white;
+  text-align: center;
+  font-size: 36px;
+}
+
+.we-are div{
+  background-color: #2e559e;
+  padding: 10px;
+  margin: 10px;
+  /* position: relative; */
+  display: inline-table;
+  height: 100%;
+  width: 20%;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.we-are .panel1{
+  left: 0px;
+  top: 0px;
+}
+
+.we-are .panel2{
+  left: 0px;
+  top: 0px;
+}
+
+.we-are .panel3{
+  left: 0px;
+  top: 0px;
+}
+
+.we-are .panel4{
+  left: 0px;
+  top: 0px;
+}
+
+.footer{
+  background-color: #1E3765;
+  width: 100%;
+  font: normal 75% 'sans lucida console', arial, sans-serif;
+  height: 140px;
+  padding: 10px 0 0px 0;
+  text-align: center;
+  color: #FFF;
+  letter-spacing: 0.1em;
+
+}
+
+.footer a
+{ color: #FFF;
+  text-decoration: none;}
 
 p
 { padding: 0 0 20px 0;
