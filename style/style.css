@@ -4,7 +4,7 @@ html
 *
 { margin: 0;
   padding: 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Calibri', sans-serif;
 }
 
 body
@@ -13,27 +13,67 @@ body
   color: black;}
 
 header {
-  background-color: #1E3765;
+  background-color: #112a5b;
   text-align: left;
-  padding: 0;
   margin: 0;
   width: 100%;
-  z-index: 1;
+  /* z-index: 1; */
   top: 0;
   left: 0;
+  font-family: 'Calibri', sans-serif;
+  font-weight: bold;
+  display: flex;
+}
+
+.title-header {
+  float: left;
+  position: relative;
+  background: #3a4e9a;
+  height: 40px;
+}
+
+.title-header:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #112a5b;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  z-index: 1;
+}
+
+.title-header:before {
+  content: "";
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #3a4e9a;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  z-index: 1;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 header img{
-  background-color: #1E3765;
+  background-color: #112a5b;
   position: relative;
   top: 5px;
+  padding-left: 8px;
 }
 
 header ul{
   white-space: nowrap;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
-  height: 50px;
+  height: 40px;
 }
 
 header li{
@@ -44,14 +84,40 @@ header li{
 }
 
 header li a.slavic {
-  height: 20px;
-  font-size: 20px;
+  height: 15px;
+  font-size: 15px;
   text-decoration: none;
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Calibri', sans-serif;
   position: relative;
-  top: -10px;
+  top: 10px;
+  padding-left: 30px;
+  padding-right: 5px;
 }
+
+/* janet new code */
+.header2 {
+  background-color: #08152d;
+}
+
+.sig {
+  padding-left: 20px;
+  padding-top: 35px;
+  padding-bottom: 12px;
+}
+
+.header2 ul {
+  color:white;
+  list-style-type: none;
+}
+
+.header2 li {
+  color:white;
+  text-decoration: none;
+}
+
+/*  */
+
 
 /* header h1{
   color: white;
@@ -81,7 +147,7 @@ header li a.slavic {
 .banner h2{
   font-size: 36px;
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Calibri', sans-serif;
   opacity: 1;
 }
 
@@ -216,14 +282,6 @@ strong
 { font-weight:bold;
 font-size:14px;}
 
-a, a:hover
-{ outline: none;
-  text-decoration: underline;
-  color: #CC0000;}
-
-a:hover
-{ text-decoration: none;}
-
 .left
 { float: left;
   width: auto;
@@ -247,12 +305,6 @@ blockquote
 
 ul
 { margin: 2px 0 22px 17px;}
-
-ul li
-{ list-style-type: circle;
-  margin: 0 0 6px 10px; 
-  padding: 0 0 4px 5px;}
-
 
 ol
 { margin: 8px 0 22px 20px;}
