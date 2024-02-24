@@ -1,0 +1,78 @@
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    /* padding: 18px;
+    width: 100%; */
+    border: none;
+    height: 100%;
+    width: 87.66%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    position: relative;
+    left: 12.34%;
+    display: inline-block;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    /* background-color: yellow; */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  article{
+    padding: 50px 0 0 0;
+    margin: 0px 10% 5% 10%;
+  }
+  
+  .slaby{
+    /* background-color: green; */
+    /* padding: 50px 0 0 0; */
+    margin: 0px 10% 5% 10%;
+    border-bottom: 3px solid rgba(30, 55, 101, 1);
+    padding: 0 0 10px 0;
+  }
+
+  .slaby img{
+    position: relative;
+    left: 0;
+    top: 81px;
+    height: 163px;
+    width: 12.34%;
+  }
+
+  .slaby span{
+    color: #1E3765;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 36px;
+  }
+
+  .slaby p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 5px;
+  }
